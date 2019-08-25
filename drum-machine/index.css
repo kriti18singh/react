@@ -1,0 +1,22 @@
+.drum-pad {
+  background-color: yellow;
+  padding : 5px;
+  width : 50%;
+  height : 50%;
+  text-align :center;
+}
+
+#drum-machine {
+  width : 50%;
+  background-color: #cdcdcd;
+  margin: auto;
+}
+.grid-container {
+  width : 50%;
+  display : inline-grid;
+  margin : 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+}
