@@ -1,22 +1,23 @@
-.drum-pad {
-  background-color: yellow;
-  padding : 5px;
-  width : 50%;
-  height : 50%;
-  text-align :center;
+.result {
+  width : auto%;
+  margin : auto;
+  background-color:#cdcdcd;
 }
 
-#drum-machine {
-  width : 50%;
-  background-color: #cdcdcd;
+.button {
+  width: auto;
   margin: auto;
+  display: block;
+  background-color: #bbb;
 }
-.grid-container {
-  width : 50%;
-  display : inline-grid;
-  margin : 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  justify-items: center;
+.calculator {
+  border: 10px solid black;
+  display : inline-block;
+  width :auto;
+  margin : auto;
+}
+button {
+  width: 25%;
+  height: 50px;
+  font-size: 20px;
 }
