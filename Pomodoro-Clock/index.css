@@ -1,0 +1,71 @@
+.container {
+  background-color : #74b6e8;
+  margin-top : 30px;
+  margin-bottom : 30px;
+  padding : 20px;
+}
+h1 {
+  text-align : center;
+  
+}
+#root {
+  margin-top : 50px;
+}
+.length {
+  display : inline;
+  float : left;
+}
+.center {
+  display: flex;
+  
+  justify-content : center;
+}
+.bsf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  align-items: center;
+  grid-column-gap : 20px;
+}
+.length-div {
+  display : flex;
+  flex-direction:column;
+  justify-content : center;
+  margin : auto;
+  align-items:center;
+}
+.btn {
+  width : 30px;
+  height: 30px;
+  border-radius: 100%;
+  
+}
+.stride {
+  margin-top: 10px;
+  margin-bottm : 10px;
+}
+.clock {
+  background-color: yellow;
+  border-radius: 100%;
+  width:200px;
+  height:200px;
+  border: 3px solid #aaaaaa;
+  align-content : center;
+  text-align : center;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  margin:auto;
+}
+#timer-label {
+  font: 15px arial, sans-serif;
+  text-transform:uppercase;
+  text-align:center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#time-left {
+  display: table-cell;
+  vertical-align: middle;
+  font : 25px arial;
+  margin-top : 10px;
+}
